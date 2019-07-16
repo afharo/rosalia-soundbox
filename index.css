@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  box-sizing: border-box;
+  color: #3D4852;
+  background-color: rgb(216, 167, 54);
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(116, 8, 116);
+  font-size: 4rem;
+  margin-left: 2rem;
+  position: relative;
+  z-index: 2;
+  transform: skew(-7deg);
+}
+
+.soundboard {
+  position: relative;
+  background-color: #3D4852;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin: auto;
+  justify-self: center;
+  padding: 1em 1em 1em 1em;
+  border-radius: 1em;
+  width: 900px;
+}
+
+button {
+  justify-self: center;
+  color: rgb(22, 13, 2);
+  font-size: 2em;
+  font-style: italic;
+  background-color: rgb(64, 226, 226);
+  padding: 1em;
+  border: none;
+  width: 10em;
+  height: 10em;
+}
